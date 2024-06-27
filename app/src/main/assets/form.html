@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>ExploreWKWebViewJavascript</title>
+      <script type="text/javascript">
+          function submitForm() {
+              Android.showUser(document.getElementById("name").value, document.getElementById("email").value);
+          }
+        function updateFromNative(message){
+       document.getElementById("title").innerHTML = message;
+  }
+      </script>
+  </head>
+  <body>
+    <div>
+      <h2><label for="title" id="title" >Title</label></h2>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="value" id="name" placeholder="Enter name" name="name">
+        </div>
+        <button onclick="submitForm()">Show data in Native</button>
+    </div>
+  </body>
+</html>

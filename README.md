@@ -1,6 +1,10 @@
-In today’s interconnected world, mobile applications often require a seamless blend of web and native functionalities. Whether you’re integrating a web-based payment gateway, displaying interactive content, or embedding a web-based login form, efficient communication between your web and native layers is crucial. This blog explores how to achieve robust web-to-native communication in Android applications.
+Web to Native Code Communication in Android
+This project demonstrates how to enable communication between web pages and native Android code using WebView.
 
-Why Web-to-Native Communication?
-Flexibility: Easily update web content without requiring a full app update.
-Efficiency: Leverage existing web infrastructure and content.
-Consistency: Maintain a unified experience across web and mobile platforms.
+Overview
+In modern Android app development, integrating web content seamlessly into native apps is a common requirement. This repository provides a simple example of achieving web-to-native code communication using WebView.
+
+Features
+WebView Integration: Display web content within your Android app.
+JavaScript Interface: Enable communication from web pages to native Android code.
+Example Usage: Demonstrates sending messages from a web page to trigger native Android functions.
